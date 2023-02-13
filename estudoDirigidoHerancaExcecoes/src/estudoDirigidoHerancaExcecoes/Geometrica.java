@@ -5,7 +5,7 @@ import exceptions.Excecao2;
 
 public class Geometrica extends Progressao{
 	
-	public Geometrica(int a0, int r, int n) throws Excecao1 {
+	public Geometrica(int a0, int r, int n) throws Excecao1, Excecao2 {
 		super(a0, r, n);
 		if (r == 0) {
 			throw new Excecao1(); 
